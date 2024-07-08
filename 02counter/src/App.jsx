@@ -13,8 +13,19 @@ function App() {
       alert("value can't be greater than 20")
     }
     else{
-      counter = counter + 1
-      setCounter(counter)     //setCounter(counter + 1)
+      // counter = counter + 1
+      // setCounter(counter)     //setCounter(counter + 1)
+
+      // setCounter(counter + 1)   
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)  
+      // This will not update the addition value three times because when these kinds of function is called ReactFiber bundles these work and send them in a single  go, which views these work as the same work and then update them once
+
+      //to obtain updation 3 times using the same structure we use the concept of the call back function that is accepted in such case ( ()=>{} )
+      setCounter((prevCounter) => prevCounter + 1)
+      setCounter((prevCounter) => prevCounter + 1)
+
+
       console.log(counter);
     }
   }
