@@ -23,7 +23,7 @@ function App() {
             onClick={ ()=> setColor("orange") } 
             className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
             style = {{backgroundColor: "orange"}}
-          >orange</button>
+          >orange</button>i
 
 
           <button 
