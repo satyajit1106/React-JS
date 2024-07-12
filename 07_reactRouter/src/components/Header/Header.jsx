@@ -1,6 +1,7 @@
 import React from "react";
 import {Link, NavLink} from "react-router-dom"
-// Link tag is used in the place of the a tag as when called the a tag then the whole page refresh and in react we dont have the concept of the refresh so we use link tag 
+
+// Link tag is used in the place of the 'a' tag as when called the 'a' tag then the whole page refresh and in react we dont have the concept of the refresh so we use link tag 
 
 
 export default function Header() {

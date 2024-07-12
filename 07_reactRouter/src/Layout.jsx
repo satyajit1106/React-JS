@@ -12,5 +12,5 @@ function Layout (){
         </>
     )
 }
-
+// we use outlet here, because it gives us the ability to nest the element using the react-router-dom, we have done nesting for the Layout in the main.jsx
 export default Layout;
