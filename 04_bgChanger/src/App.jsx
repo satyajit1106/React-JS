@@ -4,7 +4,7 @@ import './App.css'
 // onClick can be set directly by calling the setColor function but we need to pass the value of the color so onClick need function take the argument but in this case we will get the returned value and onClick accepts only the callback function, it will work but not the good practice
 
 function App() {
-  const [color, setColor] = useState("olive")
+  const [color, setColor] = useState("pink")
 
   return (
     <div className="w-full h-screen duration-200"
@@ -23,7 +23,7 @@ function App() {
             onClick={ ()=> setColor("orange") } 
             className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
             style = {{backgroundColor: "orange"}}
-          >orange</button>i
+          >orange</button>
 
 
           <button 
